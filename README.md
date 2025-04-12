@@ -51,9 +51,13 @@ pulse_counter_evolution/
    ```
 
 ## Running Simulations
-- **Simulation Framework:**:
+- **Simulation Framework:**
   The core simulation code is in src/simulation.py. You can start by running the example models, such as the repressilator or toggle      switch, to verify the ODE solver functionality.
-
+- **Validation Notebook**
+  Open the notebooks/validation.ipynb in Jupyter Notebook or JupyterLab to run through example simulations and view the generated plots:
+  ```bash
+  jupyter notebook notebooks/validation.ipynb
+   ```
 
 
 
