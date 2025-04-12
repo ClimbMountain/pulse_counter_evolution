@@ -45,3 +45,15 @@ pulse_counter_evolution/
    python -m venv env
    source env/bin/activate    # On Windows, use `env\Scripts\activate`
    ```
+3. **Install required packages:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Running Simulations
+- **Simulation Framework:**:
+  The core simulation code is in src/simulation.py. You can start by running the example models, such as the repressilator or toggle      switch, to verify the ODE solver functionality.
+
+
+
+
