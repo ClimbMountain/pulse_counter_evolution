@@ -39,3 +39,9 @@ pulse_counter_evolution/
    ```bash
    git clone https://github.com/yourusername/pulse_counter_evolution.git
    cd pulse_counter_evolution
+   ```
+2. **Set up Virtual Environment:**
+   ```bash
+   python -m venv env
+   source env/bin/activate    # On Windows, use `env\Scripts\activate`
+   ```
