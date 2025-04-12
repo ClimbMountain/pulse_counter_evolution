@@ -13,7 +13,19 @@ The primary objective of this project is to develop a minimal yet robust gene ci
 - **Analysis Tools:** Scripts for dynamic behavior analysis including time-series plots, phase portraits, and robustness testing.
 
 ## Repository Structure
-<pre> pulse_counter_evolution/ ├── notebooks/ │ └── validation.ipynb # Jupyter notebook for simulation validation and data analysis ├── src/ │ ├── simulation.py # ODE simulation framework and numerical integration routines │ ├── fitness.py # Fitness function definitions for pulse counting │ ├── optimization.py # Evolutionary and gradient-based optimization algorithms │ └── models.py # Gene circuit model definitions (e.g., repressilator, pulse counter) ├── requirements.txt # List of Python dependencies ├── README.md # Project overview and documentation └── LICENSE # License information (if applicable) </pre>
+```
+pulse_counter_evolution/
+├── notebooks/
+│   └── validation.ipynb         # Jupyter notebook for simulation validation and data analysis
+├── src/
+│   ├── simulation.py            # ODE simulation framework and numerical integration routines
+│   ├── fitness.py               # Fitness function definitions for pulse counting
+│   ├── optimization.py          # Evolutionary and gradient-based optimization algorithms
+│   └── models.py                # Gene circuit model definitions (e.g., repressilator, pulse counter)
+├── requirements.txt             # List of Python dependencies
+├── README.md                    # Project overview and documentation
+└── LICENSE                      # License information (if applicable)
+```
 
 
 ## Getting Started
